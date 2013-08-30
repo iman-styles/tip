@@ -89,8 +89,8 @@
       -moz-transform: translateX(-50%);
       transform: translateX(-50%);
 
-      // IE8/9
-      .no-animations & {
+      // IE8
+      .no-csstransforms & {
         margin-left: -8px;
       }
     }
