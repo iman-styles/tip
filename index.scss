@@ -144,29 +144,3 @@
     }
   }
 }
-
-.im-blue-tip {
-  $caret-width: 16px;
-  $caret-height: 8px;
-
-  background: $blue-lightest;
-  padding: spacing(2) spacing(2) !important;
-
-  // east
-  &.east:after {
-      @include triangle('left', $caret-height, $caret-width, $blue-lightest);
-  }
-}
-
-.im-green-tip {
-  $caret-width: 16px;
-  $caret-height: 8px;
-
-  background: $green;
-  padding: spacing(2) spacing(2) !important;
-
-  // south
-  &.south:after {
-    @include triangle('top', $caret-width, $caret-height, $green);
-  }
-}
