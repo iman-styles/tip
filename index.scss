@@ -95,7 +95,14 @@
       }
     }
   }
-
+  &.south.east {
+     margin-bottom: $caret-width * -1;
+    &:after {
+      @include triangle('left', $caret-height, $caret-width, $background);
+      left: -4px;
+      top: 78%;
+    }
+  }
   &.north.east {
     margin-top: $caret-width * -1;
     &:after {
